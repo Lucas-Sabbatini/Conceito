@@ -1,0 +1,22 @@
+:root{
+    --color-primary: #d55b66;
+    --color-primary-ligth: #d87a80;
+    --color-secondary: #3ab2de;
+    --color-secondary-ligth: #7fc0d8;
+    --color-font:#2b2828;
+    --color-background:#FAF0E6;
+    --color-font-strong:#bd1414;
+    font-size: 60%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100vh;
+    background-color: var(--color-background);
+}
